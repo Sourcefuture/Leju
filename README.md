@@ -13,10 +13,6 @@
 </div>
 
 ---
-## 🚀 News
-- **[2026-05-30]** : 支持lerobot0.5.2内置的10种模型与原版模型(lingbotvla, pi0, pi0fast, pi05, gr00tN1.7)
-- **[2026-07-09]** : 新增LingbotVLA-v2模型
-- **[2026-08-26]** : 我们推出[Kuavo-VLA-1.0](https://model.lejurobot.com/kuavo-vla-1), 一款基于Kuavo本体与工业场景的垂域大模型。使用方法见[完整文档](https://www.letools.lejurobot.com)
 ## ✨ 核心特性
 
 | 特性 | 说明 |
@@ -212,38 +208,6 @@ python kuavo_deploy/eval.py
 | 推理与部署        | [查看文档](https://www.letools.lejurobot.com/docs.html#tutorials/inference.md)        |
 | 新策略拓展        | [查看文档](https://www.letools.lejurobot.com/docs.html#tutorials/bring_policies.md)   |
 
-
-
-## 💬 支持与反馈
-
-我们鼓励通过 GitHub 渠道反馈问题，使之可被搜索、归档，也方便后来者复用。
-
-
-| 我想要...           | 推荐渠道                                                                                                                   |
-| ---------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| 报告 Bug 或运行时报错    | [GitHub Issues](https://github.com/LejuRobotics/LeTools-Learning/issues/new?labels=bug)（请附环境信息、复现步骤、完整 traceback） |
-| 提交新功能建议 / 模型接入需求 | [GitHub Issues](https://github.com/LejuRobotics/LeTools-Learning/issues/new?labels=enhancement)                   |                   |
-| 国内用户交流群          | QQ 群 / 微信群入群方式见 [社区交流](https://www.letools.lejurobot.com/docs.html#troubleshooting/community.md)        |
-| 项目合作 / 企业级支持     | [lejurobot@lejurobot.com](mailto:lejurobot@lejurobot.com)                                                              |
-
-
-**提交 Issue 前请先：**
-
-1. 搜索 [已有 Issues](https://github.com/LejuRobotics/LeTools-Learning/issues?q=is%3Aissue) 和 [常见问题 FAQ](https://www.letools.lejurobot.com/docs.html#troubleshooting/faq.md)，避免重复。
-2. 阅读 [贡献指南](https://github.com/LejuRobotics/LeTools-Learning/blob/main/CONTRIBUTING.md) 了解分支策略与 PR 流程。
-3. 使用对应的 [Issue 模板](https://github.com/LejuRobotics/LeTools-Learning/issues/new/choose)，填全环境与复现信息。
-
-**响应预期：** 本项目由乐聚机器人算法团队在工作时间维护。我们会尽力响应所有公开渠道的反馈，但**不对修复时间作正式 SLA 承诺**；如需企业级保障，请走商业合作邮箱。
-
-**乐聚内部成员：内部沟通渠道**（外部用户可忽略）
-
-内部沟通流程不公开维护在本仓库，请通过以下入口：
-
-- **KDC 用户群**（飞书）：日常使用答疑
-- **飞书表格**：缺陷提报 / 意见反馈 填入飞书表格，将会按严重等级流转（严重缺陷 → 紧急修复；普通缺陷 → 算法部临时方案 + 正式版本修复；意见建议 → 评审后纳入计划）
-- **飞书项目**：如需新增全新的功能（如新模型接入）走正式需求流程
-
-详细流程请见公司内部 Wiki。
 
 ## 🙏 致谢
 
