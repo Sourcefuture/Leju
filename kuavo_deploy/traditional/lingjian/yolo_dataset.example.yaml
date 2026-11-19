@@ -1,0 +1,11 @@
+# Copy this file next to the annotated dataset and update path.
+# Expected layout: images/{train,val,test} and labels/{train,val,test}.
+path: /path/to/lingjian_yolo
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: yellow_part
+  1: metal_part
+  2: bin

@@ -229,3 +229,13 @@ kuavo_server/README.md
 
 # CarlOS project artifacts
 .carlos/
+
+# Local agent/credential directories and simulator runtime files
+.agents/
+.aws/
+.ssh/
+.env.*
+!.env.example
+MUJOCO_LOG.TXT
+core
+core.*

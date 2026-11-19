@@ -1,0 +1,3 @@
+kuavo_leju /mnt/e/Data/Leju/Beijing-chazuo/lerobot
+kuavo_leju /mnt/e/Data/Leju/Beijing-liaopan/lerobot
+kuavo_leju /mnt/e/Data/Leju/Beijing-lingjian/lerobot

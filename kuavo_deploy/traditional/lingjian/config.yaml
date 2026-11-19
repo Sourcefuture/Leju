@@ -1,0 +1,30 @@
+dataset:
+  root: /mnt/e/Data/Leju/Beijing-lingjian/lerobot
+  camera: observation.images.head_cam_h
+  video_backend: pyav
+
+perception:
+  # Normalized [x_min, y_min, x_max, y_max] in the head-camera image.
+  workspace_roi: [0.06, 0.19, 0.94, 0.92]
+  morphology_kernel: 5
+
+  blue_bin:
+    hsv_lower: [85, 85, 85]
+    hsv_upper: [135, 255, 255]
+    min_area: 2000
+    max_area: 100000
+    min_center_y: 0.22
+    max_per_image_side: 1
+
+  yellow_part:
+    hsv_lower: [15, 90, 70]
+    hsv_upper: [42, 255, 255]
+    min_area: 120
+    max_area: 12000
+
+  # Objects already inside a detected blue bin are not pick candidates.
+  bin_exclusion_margin_px: 8
+
+annotation:
+  classes: [yellow_part, metal_part, left_bin, right_bin, gripper]
+  episode_split: [0.70, 0.15, 0.15]

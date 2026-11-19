@@ -1,0 +1,3 @@
+# Optional: only needed by yolo_* and train_yolo.py.
+# Review Ultralytics AGPL-3.0/enterprise terms before production distribution.
+ultralytics>=8.4.0,<9

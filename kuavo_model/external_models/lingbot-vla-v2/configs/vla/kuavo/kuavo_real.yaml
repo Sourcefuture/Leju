@@ -8,8 +8,8 @@ model:
 
 data:
   datasets_type: vla
-  data_name: kuavo
-  train_path: /path/to/your/kuavo_lerobot_v3
+  data_name: multi
+  train_path: assets/training_data/kuavo_leju.txt
   robot_config_root: configs/robot_configs
   joints:
     - arm.position: 14
@@ -22,12 +22,12 @@ data:
   norm_type:
     - arm.position: meanstd
     - effector.position: meanstd
-  num_workers: 8
+  num_workers: 4
   use_future_image: true
-  norm_stats_file: assets/norm_stats/kuavo.json
+  norm_stats_file: assets/norm_stats/kuavo_leju.json
 
 train:
-  output_dir: output/kuavo_lingbotvla_v2_depth
+  output_dir: output/kuavo_leju_lingbotvla_v2_depth
   chunk_size: 50
   moe_monitor_interval: 1000
   enable_gradient_checkpointing: true

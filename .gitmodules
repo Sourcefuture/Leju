@@ -1,3 +1,9 @@
 [submodule "third_party/lerobot"]
 	path = third_party/lerobot
 	url = https://github.com/huggingface/lerobot.git
+[submodule ".sim/kuavo-ros-opensource"]
+	path = .sim/kuavo-ros-opensource
+	url = https://github.com/LejuRobotics/kuavo-ros-opensource.git
+[submodule ".sim/kuavo-data-challenge-branch"]
+	path = .sim/kuavo-data-challenge-branch
+	url = https://github.com/LejuRobotics/kuavo-ros-opensource.git
